@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.v-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* _ _ _ _ _ _ _  */
+
+
+
+
+
+
+
+/* - - - DEBUG - - - */
+
+body.debug-spacing {
+    padding: 30px;
+}
+
+.debug header, .debug main, .debug footer {
+    border: 3px solid red;
+}
+
+.debug-bgc header, .debug-bgc main, .debug-bgc footer {
+    background-color: rgb(245, 181, 145);
+}
+
+.debug-spacing header, .debug-spacing main, .debug-spacing footer {
+    min-height: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.debug section {
+    border: 3px dashed black;
+}
+
+.debug-bgc section {
+    background-color: rgb(253, 253, 171);
+}
+
+.debug-spacing section {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.debug-spacing section:last-child {
+    margin-bottom: 0;
+}
+
+.debug .container {
+    border: 1px solid black;
+}
+
+.debug-bgc .container {
+    background-color: rgb(141, 199, 141);
+}
+
+.debug-spacing .container {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.debug-spacing .container:last-child {
+    margin-bottom: 0;
+}
+
+.debug-spacing header .container {
+    min-height: 30px;
+}
+
+.debug-spacing .jumbotron .container {
+    min-height: 400px;
+}
+
+.debug .container > * {
+    border: 1px solid black;
+}
+
+.debug-bgc .container > * {
+    background-color: lightblue;
+}
+
+.debug-bgc .container .col {
+    background-color: rgb(221, 126, 213);
+}
+
+.debug-spacing .col {
+    min-height: 50px;
+    margin-top: 20px;
+}
+
+.debug-spacing .row {
+    padding: 30px;
+}
+
+.debug .col {
+    border: 2px dotted blue;
+}
+
+.debug-spacing .content__header {
+    min-height: 50px;
+}
+
+.debug-spacing .col-3, .debug-spacing .col-6 {
+    min-height: 400px;
+}
