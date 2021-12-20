@@ -70,7 +70,7 @@ header .navbar {
     width: 70%;
 }
 
-header .logo {
+header .logo img {
     display: block;
 }
 
@@ -263,7 +263,140 @@ main .cta-download:hover {
 }
 
 
+/* - - - FOOTER - - - */
 
+footer section {
+    background-color: #23272A;
+}
+
+footer .row {
+    padding-top: 70px;
+}
+
+footer .col-4{
+    width: calc(100% * 4 / 12);
+}
+
+footer .col-2{
+    width: calc(100% * 2 / 12);
+}
+
+footer [class^="col-"] {
+    float: left;
+    /* background-color: orange; */
+    /* border: 1px solid white; */
+    min-height: 50px;
+}
+
+footer h4 {
+    font-size: 2em;
+    font-weight: 900;
+    color: #7289DA;
+    margin-bottom: 30px;
+}
+
+footer .col-4 {
+    padding-right: 60px;
+}
+
+.flag-ita img {
+    width: 22px;
+}
+
+select {
+    border:none;
+    /* appearance: none; */
+    background-color: #23272A;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+footer .social a i {
+    color: white;
+    padding-right: 20px;
+}
+
+footer .social a i:hover {
+    color: #e93e3e;
+}
+
+footer h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #7289DA;
+}
+
+footer h5, footer li {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li a {
+    color: white;
+}
+
+footer li a:hover {
+    color: #e93e3e;
+}
+
+
+
+
+/* header nav.row {
+    padding: 20px 0;
+    z-index: 999;
+} */
+
+footer .row .logo, footer .row .cta {
+    float: left;
+}
+
+footer .logo, footer .cta {
+    width: 50%;
+}
+
+footer .logo  img{
+    display: block;
+}
+
+footer .cta {
+    line-height: 34px;
+}
+
+footer .cta {
+    text-align: right;
+}
+
+footer .cta-registrati {
+    color: white;
+    padding: 8px 12px;
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+footer .cta-registrati:hover {
+
+    background-color: #e93e3e;
+}
+
+footer .row:first-of-type {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8EA1E1;
+}
+
+footer .row:last-of-type {
+    padding-top: 30px;
+}
+
+footer section {
+    padding-bottom: 70px;
+}
 
 /* - - - DEBUG - - - */
 
