@@ -176,6 +176,54 @@ header div.row .cta a:first-child {
 }
 
 
+/* MAIN */
+
+main section {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+
+[class^="col-"] {
+    min-height: 400px;
+    float: left;
+}
+
+[class^="col-"]:first-child {
+    margin-right: calc(100% / 12);
+}
+
+.col-4 {
+    width: calc(100% * 4 / 12);
+    background: orange;
+    /* height: 100%; */
+}
+
+.col-7 {
+    width: calc(100% * 7 / 12);
+    background: red;
+    /* border: 1px solid red; */
+}
+
+[class^="col-"] img {
+    width: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    font-size: 3.1em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+[class^="col-"] p {
+    font-size: 1.2em;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    /* margin-bottom: 20px; */
+    text-align: justify;
+}
 
 
 
