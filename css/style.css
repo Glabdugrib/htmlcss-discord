@@ -63,12 +63,12 @@ header .logo, header .cta {
     width: 15%;
 }
 
-header .logo {
-    font-size: 0;
-}
-
 header .navbar {
     width: 70%;
+}
+
+header .logo {
+    display: block;
 }
 
 header ul {
@@ -83,20 +83,28 @@ header li {
     font-size: 14px;
 }
 
+header li:last-child {
+    padding-right: 0;
+}
+
 header li a {
     color: white;
     font-weight: 500;
 }
 
-header li, header .cta {
+header li a:hover {
+    color: black;
+}
+
+header li, header nav .cta {
     line-height: 34px;
 }
 
-header .cta {
+header nav .cta {
     text-align: right;
 }
 
-header .cta a {
+header .cta-accedi {
     color: black;
     padding: 8px 12px;
     background-color: white;
@@ -105,23 +113,67 @@ header .cta a {
     font-size: 0.9em;
 }
 
-header .cta a:hover {
+header .cta-accedi:hover {
     color: white;
     background-color: black;
 }
 
-header .navbar li:last-child {
-    padding-right: 0;
-}
+/* ---- */
 
+header div.row {
+    height: calc(500px - 38px - 20px - 20px);
+    position: relative;
+}
 
 .col-9 {
-    width: calc(100% * 9 / 12);
-    background-color: white;
-    /* margin: auto; */
+    width: calc(100% * 8 / 12);
+    text-align: center;
 }
 
+header div.row h1 {
+    color: white;
+    font-size: 3.4em;
+    margin-bottom: 40px;
+}
 
+header div.row p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+header div.row .cta {
+    width: 100%;
+}
+
+header div.row .cta a {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+header div.row .cta a:first-child {
+    margin-right: 20px;
+}
+
+.cta-download {
+    background-color: white;
+    color: #1C1B29;
+}
+
+.cta-open {
+    color: white;
+    background-color: #1C1B29;
+}
+
+[class^="cta-"]:hover {
+    color: white;
+    background-color: #e93e3e;
+}
 
 
 
